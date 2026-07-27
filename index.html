@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍 - Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">MySpace</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#portfolio">作品</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <span>你好，我是</span>
+                </div>
+                <h1 class="name">徐玮阳</h1>
+                <p class="title">广告运营&自媒体创作</p>
+                <p class="description">
+                    学习使人进步，进步才能有更好的创意。用户是产品的基石，服务是产品给用户的回馈。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">查看作品</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-wrapper">
+                        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=creative%20professional%20portrait%20of%20a%20young%20designer%20with%20colorful%20background%20artistic%20style&image_size=portrait_4_3" alt="个人照片">
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-element float-1">🎨</div>
+                        <div class="float-element float-2">💻</div>
+                        <div class="float-element float-3">✨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">技能专长</h2>
+            <p class="section-subtitle">掌握的技术与工具</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>广告运营</h3>
+                <p>Figma、Sketch、Adobe XD</p>
+                <div class="skill-level">
+                    <div class="level-bar" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>自媒体运营</h3>
+                <p>HTML、CSS、JavaScript、React</p>
+                <div class="skill-level">
+                    <div class="level-bar" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>视频剪辑</h3>
+                <p>Flutter、React Native</p>
+                <div class="skill-level">
+                    <div class="level-bar" style="width: 75%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>平面设计</h3>
+                <p>Photoshop、Lightroom</p>
+                <div class="skill-level">
+                    <div class="level-bar" style="width: 80%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-header">
+            <h2 class="section-title">作品集</h2>
+            <p class="section-subtitle">精选项目展示</p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20mobile%20app%20interface%20design%20colorful%20gradient%20ui%20ux&image_size=landscape_16_9" alt="项目1">
+                    <div class="portfolio-overlay">
+                        <h3>移动应用设计</h3>
+                        <p>一款健康管理类应用的UI设计</p>
+                        <a href="#" class="view-project">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h4>健康管家App</h4>
+                    <span class="portfolio-tag">UI设计</span>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=creative%20website%20design%20portfolio%20modern%20layout%20colorful&image_size=landscape_16_9" alt="项目2">
+                    <div class="portfolio-overlay">
+                        <h3>企业官网重构</h3>
+                        <p>响应式设计，提升用户体验</p>
+                        <a href="#" class="view-project">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h4>科技公司官网</h4>
+                    <span class="portfolio-tag">Web开发</span>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=brand%20identity%20design%20logo%20packaging%20creative%20colorful&image_size=landscape_16_9" alt="项目3">
+                    <div class="portfolio-overlay">
+                        <h3>品牌视觉设计</h3>
+                        <p>完整的品牌识别系统设计</p>
+                        <a href="#" class="view-project">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h4>咖啡品牌VI</h4>
+                    <span class="portfolio-tag">品牌设计</span>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=e-commerce%20app%20design%20shopping%20interface%20modern%20ui&image_size=landscape_16_9" alt="项目4">
+                    <div class="portfolio-overlay">
+                        <h3>电商平台设计</h3>
+                        <p>优化购物流程，提升转化率</p>
+                        <a href="#" class="view-project">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-info">
+                    <h4>时尚购物App</h4>
+                    <span class="portfolio-tag">UX设计</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">联系方式</h2>
+            <p class="section-subtitle">期待与你的交流</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>邮箱</h4>
+                        <p>2964330744@qq.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>地址</h4>
+                        <p>广东广州天河区</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>电话</h4>
+                        <p>18786312376</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="你的姓名" required>
+                    <input type="email" name="email" placeholder="你的邮箱" required>
+                    <textarea name="message" placeholder="留言内容..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 徐玮阳. 保留所有权利.</p>
+        <p>用 ❤️ 打造</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
